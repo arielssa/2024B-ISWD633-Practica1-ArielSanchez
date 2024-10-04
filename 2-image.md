@@ -25,11 +25,11 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# Comando: 
+### Comando: 
 ```
 docker pull hello-world
 ```
-# Ejecución:
+### Ejecución:
 ```
 Using default tag: latest
 latest: Pulling from library/hello-world
@@ -37,16 +37,37 @@ c1ec31eb5944: Download complete
 Digest: sha256:91fb4b041da273d5a3273b6d587d62d518300a6ad268b28628f74997b93171b2
 Status: Downloaded newer image for hello-world:latest
 docker.io/library/hello-world:latest
-```
-
 What's next:
     View a summary of image vulnerabilities and recommendations → docker scout quickview hello-world
+```
 
 **¿Qué es nginx**
-Es un software de servidor web diseñado para manejar solicitudes HTTP y HTTPS.
+### Es un software de servidor web diseñado para manejar solicitudes HTTP y HTTPS.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+### Comando:
+```
+docker pull nginx:alpine
+```
+### Ejecución:
+
+```
+alpine: Pulling from library/nginx
+d1171b13e412: Download complete
+f99ac9ba1313: Download complete
+fd072e74e282: Download complete
+45eb579d59b2: Download complete
+379754eea6a7: Download complete
+43c4264eed91: Download complete
+596d53a7de88: Download complete
+472934715761: Download complete
+Digest: sha256:2140dad235c130ac861018a4e13a6bc8aea3a35f3a40e20c1b060d51a7efd250
+Status: Downloaded newer image for nginx:alpine
+docker.io/library/nginx:alpine
+
+What's next:
+    View a summary of image vulnerabilities and recommendations → docker scout quickview nginx:alpine
+```
 
 ### Listar imágenes
 
