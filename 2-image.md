@@ -4,7 +4,8 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+La imagen contiene todo lo necesario (programas, dependencias librerías) para que el contenedor pueda ejecutarse.
+Al crear un contenedor se debe especificar la imagen que se desea.
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
 ## Comandos para imágenes
@@ -27,7 +28,7 @@ Descargar la imagen **hello-world**
 # COMPLETAR
 
 **¿Qué es nginx**
-# COMPLETAR 
+Es un software de servidor web diseñado para manejar solicitudes HTTP y HTTPS.
 
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
