@@ -75,7 +75,7 @@ What's next:
 docker images
 ```
 
-![Listado de imágenes](img/listadoContenedores.PNG)
+![Listado de imágenes](img/listadoContenedores.png)
 
 **Identificadores**
 
