@@ -75,7 +75,7 @@ What's next:
 docker images
 ```
 
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+![Listado de imágenes](img/listadoContenedores.PNG)
 
 **Identificadores**
 
