@@ -24,7 +24,8 @@ Una imagen puede tener la etiqueta latest para representar la última versión, 
 docker pull <nombre imagen>:<tag>
 ```
 
-Descargar la imagen **hello-world**
+### Actividad 1: Descargar la imagen **hello-world**
+
 ### Comando: 
 ```
 docker pull hello-world
@@ -41,10 +42,11 @@ What's next:
     View a summary of image vulnerabilities and recommendations → docker scout quickview hello-world
 ```
 
-**¿Qué es nginx**
+### Actividad 2: **¿Qué es nginx**
 #### Es un software de servidor web diseñado para manejar solicitudes HTTP y HTTPS.
 
-Descargar la imagen  **nginx** en la versión **alpine**
+### Actividad 3: Descargar la imagen  **nginx** en la versión **alpine**
+
 ### Comando:
 ```
 docker pull nginx:alpine
@@ -69,7 +71,7 @@ What's next:
     View a summary of image vulnerabilities and recommendations → docker scout quickview nginx:alpine
 ```
 
-### Listar imágenes
+### Actividad 4: Listar imágenes
 
 ```
 docker images
@@ -89,7 +91,7 @@ docker inspect <nombre imagen>
 docker inspect <nombre imagen>:<tag>
 ```
 
-Inspeccionar la imagen hello-world 
+### Actividad 5: Inspeccionar la imagen hello-world 
 
 ### Comando:
 
@@ -158,7 +160,7 @@ docker inspect hello-world
 ]
 ```
 
-**¿Con qué algoritmo se está generando el ID de la imagen**
+### Actividad 6: **¿Con qué algoritmo se está generando el ID de la imagen**
 
 #### El ID de una imagen de Docker se genera utilizando un algoritmo criptográfico de hashing SHA-256. 
 
@@ -176,7 +178,7 @@ Eliminar permanentemente la imagen de tu sistema Docker.
 docker rmi <nombre imagen>:<tag>
 ```
 
-Eliminar la imagen hello-world 
+### Actividad 7: Eliminar la imagen hello-world 
 
 ### Comando:
 
