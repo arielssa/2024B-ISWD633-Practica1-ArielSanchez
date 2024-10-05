@@ -30,7 +30,7 @@ docker pull <nombre imagen>:<tag>
 ```
 docker pull hello-world
 ```
-### Ejecución:
+### Salida:
 ```
 Using default tag: latest
 latest: Pulling from library/hello-world
@@ -51,7 +51,7 @@ What's next:
 ```
 docker pull nginx:alpine
 ```
-### Ejecución:
+### Salida:
 
 ```
 alpine: Pulling from library/nginx
@@ -73,9 +73,13 @@ What's next:
 
 ### Actividad 4: Listar imágenes
 
+### Comando:
+
 ```
 docker images
 ```
+
+### Salida:
 
 ![Listado de imágenes](img/listadoContenedores.png)
 
@@ -99,7 +103,7 @@ docker inspect <nombre imagen>:<tag>
 docker inspect hello-world
 ```
 
-### Ejecución:
+### Salida:
 
 ```
 [
@@ -186,7 +190,7 @@ docker rmi <nombre imagen>:<tag>
 docker rmi hello-world:latest
 ```
 
-### Ejecución:
+### Salida:
 
 ```
 Untagged: hello-world:latest
