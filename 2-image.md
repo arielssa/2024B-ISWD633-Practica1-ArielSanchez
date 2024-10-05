@@ -42,7 +42,7 @@ What's next:
 ```
 
 **¿Qué es nginx**
-### Es un software de servidor web diseñado para manejar solicitudes HTTP y HTTPS.
+#### Es un software de servidor web diseñado para manejar solicitudes HTTP y HTTPS.
 
 Descargar la imagen  **nginx** en la versión **alpine**
 ### Comando:
@@ -91,7 +91,7 @@ docker inspect <nombre imagen>:<tag>
 
 Inspeccionar la imagen hello-world 
 
-### Comando
+### Comando:
 
 ```
 docker inspect hello-world
@@ -177,7 +177,19 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
+
+### Comando:
+
+```
+docker rmi hello-world:latest
+```
+
+### Ejecución:
+
+```
+Untagged: hello-world:latest
+Deleted: sha256:91fb4b041da273d5a3273b6d587d62d518300a6ad268b28628f74997b93171b2
+```
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
