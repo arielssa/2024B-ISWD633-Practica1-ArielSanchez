@@ -30,18 +30,6 @@ docker pull <nombre imagen>:<tag>
 ```
 docker pull hello-world
 ```
-### Salida:
-```
-Using default tag: latest
-latest: Pulling from library/hello-world
-c1ec31eb5944: Download complete
-Digest: sha256:91fb4b041da273d5a3273b6d587d62d518300a6ad268b28628f74997b93171b2
-Status: Downloaded newer image for hello-world:latest
-docker.io/library/hello-world:latest
-What's next:
-    View a summary of image vulnerabilities and recommendations → docker scout quickview hello-world
-```
-
 ### Actividad 2: **¿Qué es nginx**
 #### Es un software de servidor web diseñado para manejar solicitudes HTTP y HTTPS.
 
@@ -51,26 +39,6 @@ What's next:
 ```
 docker pull nginx:alpine
 ```
-### Salida:
-
-```
-alpine: Pulling from library/nginx
-d1171b13e412: Download complete
-f99ac9ba1313: Download complete
-fd072e74e282: Download complete
-45eb579d59b2: Download complete
-379754eea6a7: Download complete
-43c4264eed91: Download complete
-596d53a7de88: Download complete
-472934715761: Download complete
-Digest: sha256:2140dad235c130ac861018a4e13a6bc8aea3a35f3a40e20c1b060d51a7efd250
-Status: Downloaded newer image for nginx:alpine
-docker.io/library/nginx:alpine
-
-What's next:
-    View a summary of image vulnerabilities and recommendations → docker scout quickview nginx:alpine
-```
-
 ### Actividad 4: Listar imágenes
 
 ### Comando:
@@ -103,67 +71,6 @@ docker inspect <nombre imagen>:<tag>
 docker inspect hello-world
 ```
 
-### Salida:
-
-```
-[
-    {
-        "Id": "sha256:91fb4b041da273d5a3273b6d587d62d518300a6ad268b28628f74997b93171b2",
-        "RepoTags": [
-            "hello-world:latest"
-        ],
-        "RepoDigests": [
-            "hello-world@sha256:91fb4b041da273d5a3273b6d587d62d518300a6ad268b28628f74997b93171b2"
-        ],
-        "Parent": "",
-        "Comment": "buildkit.dockerfile.v0",
-        "Created": "2023-05-02T16:49:27Z",
-        "DockerVersion": "27.2.0",
-        "Author": "",
-        "Config": {
-            "Hostname": "",
-            "Domainname": "",
-            "User": "",
-            "AttachStdin": false,
-            "AttachStdout": false,
-            "AttachStderr": false,
-            "Tty": false,
-            "OpenStdin": false,
-            "StdinOnce": false,
-            "Env": [
-                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-            ],
-            "Cmd": [
-                "/hello"
-            ],
-            "ArgsEscaped": true,
-            "Image": "",
-            "Volumes": null,
-            "WorkingDir": "/",
-            "Entrypoint": null,
-            "OnBuild": null,
-            "Labels": null
-        },
-        "Architecture": "amd64",
-        "Os": "linux",
-        "Size": 15288,
-        "GraphDriver": {
-            "Data": null,
-            "Name": "overlayfs"
-        },
-        "RootFS": {
-            "Type": "layers",
-            "Layers": [
-                "sha256:ac28800ec8bb38d5c35b49d45a6ac4777544941199075dff8c4eb63e093aa81e"
-            ]
-        },
-        "Metadata": {
-            "LastTagTime": "2024-10-04T14:56:45.154189574Z"
-        }
-    }
-]
-```
-
 ### Actividad 6: **¿Con qué algoritmo se está generando el ID de la imagen**
 
 #### El ID de una imagen de Docker se genera utilizando un algoritmo criptográfico de hashing SHA-256. 
@@ -188,13 +95,6 @@ docker rmi <nombre imagen>:<tag>
 
 ```
 docker rmi hello-world:latest
-```
-
-### Salida:
-
-```
-Untagged: hello-world:latest
-Deleted: sha256:91fb4b041da273d5a3273b6d587d62d518300a6ad268b28628f74997b93171b2
 ```
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
